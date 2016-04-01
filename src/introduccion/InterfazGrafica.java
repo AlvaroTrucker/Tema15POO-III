@@ -79,7 +79,7 @@ public class InterfazGrafica {
 		botonSalir.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				System.out.println(listaMotocicleta);
-				//Auxiliar.guardar(listaMotocicleta);
+				Auxiliar.guardarDatos(listaMotocicleta);
 				System.exit(0);
 			}
 		});
