@@ -13,6 +13,14 @@ public class Profesor extends Persona {
 		super(nombre, edad, dni);
 		this.especialidad = especialidad;
 	}
-	
+
+	public String getEspecialidad() {
+		return especialidad;
+	}
+
+	@Override
+	public String toString() {
+		return "Profesor [especialidad=" + especialidad + ", toString()=" + super.toString() + "]";
+	}
 	
 }
